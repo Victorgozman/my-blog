@@ -68,7 +68,8 @@ color: black;
 }
 
 .sub-menu{
-
+	display: block;
+	background-color: #061d31;
 	position: absolute;
 	opacity: 0;
 	z-index: =1;
@@ -158,6 +159,9 @@ textarea{
 .left-div {
 	float: left;
 	width: 20%;
+	height: 400px;
+	overflow: auto;
+	background-color: #d1d5d8;
 	
 }
 
