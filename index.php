@@ -12,7 +12,7 @@ $user->find_by_sql("SELECT *from users where id=1");
 <html>
 	<head>
 		<title><?php echo $title; ?></title>
-		<link href="blog_test.css" rel="stylesheet" type="text/css" >
+		<link href="styles/style.css" rel="stylesheet" type="text/css" >
 	</head>
 	<body>
 
