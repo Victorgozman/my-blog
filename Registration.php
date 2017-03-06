@@ -7,7 +7,7 @@
 
 	<body>
 		<div class="registration">
-			<h2>Welcome To our registration page</h2>
+			<h2>Welcome To our registratio page</h2>
 		</div>
     	<div class="login">
 			<h2>Register</h2>

@@ -11,7 +11,6 @@ $user->find_by_sql("SELECT *from users where id=1");
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title><?php echo $title; ?></title>
 		<link href="styles/style.css" rel="stylesheet" type="text/css" >
 	</head>
@@ -20,7 +19,7 @@ $user->find_by_sql("SELECT *from users where id=1");
 				<div class="container">
 						<ul class="nav-menu">
 							<li id="logo"><strong>VIC</strong></li>
-							<li class="hov"><a href="index.php">Home<span class="arrow">&#9660;</span></a>
+							<li class="hov"><a href="#">Home<span class="arrow">&#9660;</span></a>
 								<ul class="sub-menu">
 									<li><a href="/"> Join Forum</a></li>
 									<li><a href="#">E-books</a></li>
@@ -107,17 +106,8 @@ $user->find_by_sql("SELECT *from users where id=1");
 									Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
 									Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
 								</p>
-						
-						
-						<div class="comment-area">
-							<form action="" method="post">
-								<label>Comment</label><br /><textarea name="message"  rows="5" class="textarea"></textarea><p>
-								<input type="submit" name="submit" value="Post"  class="comment button" />
-								<a href="" style="text-align: center">Like</a>
-							</form>
-
-						</div>
 					</div>
+
 
 
 					<div class="right-content">
@@ -131,34 +121,19 @@ $user->find_by_sql("SELECT *from users where id=1");
 					</div>
 
 		<div class="clear"></div>
-		
 		<div class="author">
 			<img src="./images/goz.jpg" alt="Gozman">
 			<p>Gozman Victor</p>
 		</div>
-
-		<div class="clear-m"></div>
-		<div class="News-letter">
-			<p style="text-align: center; padding: 5px 0px">News letter</p>
-			<form action="" method="post">
-				<label class="input-text">Name</label><input name="name" type="text" size="40" class="box-medium" value="" />
-				<label class="input-text">Email</label><input name="email" type="text" size="40" class="box-medium" value="" placeholder="required, but never shown" />
-				<p><label>&nbsp;</label><input type="submit" name="submit" value="Signup" class="button Signup"   />
-
-			</form>
-		</div>
-
 		</div>
 			<div class="clear"></div>
 		<div class="footer">
-			<ul class="footer-nav">
-				<li><a href="">Home</a></li>
-				<li><a href="">Help</a></li>
-				<li><a href="">community</a></li>
-				<li><a href="">Contact-Us</a></li>
-			</ul>
-			<p class="footer-text"><span >copyright victor-gozman &copy;2017</span></p>
+
+			<div class="footer-text"><p>copyright victor-gozman &copy;2017 </p></div>
+
 		</div>
+
+
 
 	</body>
 
